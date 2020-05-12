@@ -30,7 +30,7 @@ the API. If it fails, wait 10 seconds and try again.
 
 - Using the newly retrieved people data (in `db/people.json`), build out the
   Person model. Include all of the properties.
-- Build out the Show model. Include the following properties:
+- Build out the Show model. The following properties are just SOME of the ones you will need to have in your model ... examine your data to determine all of the properties the Show model will need:
   - url
   - name
   - language
