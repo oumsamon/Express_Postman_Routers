@@ -52,7 +52,6 @@ e.g. using GET for retrieving data and POST for writing data.
 
 - List all shows/people
 - List a single show/person by id
-- List a single show/person by name
 - Create a show/person
 - Update a single show/person by id
 - Delete a show/person by id
