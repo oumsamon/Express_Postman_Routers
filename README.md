@@ -18,7 +18,7 @@ Please turn in your submission as a new pull request by 9am on Thursday.
 
 ## Requirements
 
-For this lab you'll be building a JSON API using express, from scratch. The
+For this assignment you'll be building a JSON API using express, from scratch. The
 provided starter files are here just to give you a guideline - you must create
 everything that isn't the seed data.
 
