@@ -11,7 +11,7 @@ const ShowSchema = new mongoose.Schema({
     runtime: Number,
     premiered: String,
     officialSite: String,
-    schedule: { time: Number, days: [String] },
+    schedule: { time: String, days: [String] },
     rating: { average: Number },
     weight: Number,
     network: {
@@ -22,20 +22,8 @@ const ShowSchema = new mongoose.Schema({
           code: String,
           timezone: String
         }
-    },
-    webChannel: Number,
-    externals: { tvrage: Number, thetvdb: Number, imdb: String },
-    image: {
-      medium: String,
-      original: String
-    },
-    summary: String,
-    updated: Number,
-    _links: {
-      self: { href: String },
-      previousepisode: { href: String}
-    }
-},
+   
+}},
 {timestamps: true}
 )
 
